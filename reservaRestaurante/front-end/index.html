@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva Restaurante</title>
+</head>
+<body>
+    <h1>Fazer Reserva</h1>
+    <form id="formReserva">
+        <input type="text" id="nome_cliente" placeholder="Nome" required><br>
+        <input type="text" id="telefone_cliente" placeholder="Telefone"><br>
+        <input type="date" id="data" required><br>
+        <input type="time" id="hora" required><br>
+        <input type="number" id="numero_pessoas" placeholder="Nº de pessoas" required><br>
+        <button type="submit">Reservar</button>
+    </form>
+    <p id="mensagem"></p>
+
+    <h2>Reservas</h2>
+    <ul id="listaReservas"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
